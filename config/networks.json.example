@@ -1,0 +1,30 @@
+{
+  "ethereum_mainnet": {
+    "name": "Ethereum Mainnet",
+    "rpc_url": "https://eth.llamarpc.com",
+    "chain_id": 1,
+    "symbol": "ETH",
+    "explorer": "https://etherscan.io"
+  },
+  "ethereum_sepolia": {
+    "name": "Ethereum Sepolia Testnet",
+    "rpc_url": "https://rpc.sepolia.org",
+    "chain_id": 11155111,
+    "symbol": "ETH",
+    "explorer": "https://sepolia.etherscan.io"
+  },
+  "polygon_mainnet": {
+    "name": "Polygon Mainnet",
+    "rpc_url": "https://polygon-rpc.com",
+    "chain_id": 137,
+    "symbol": "MATIC",
+    "explorer": "https://polygonscan.com"
+  },
+  "bsc_mainnet": {
+    "name": "Binance Smart Chain Mainnet",
+    "rpc_url": "https://bsc-dataseed.binance.org",
+    "chain_id": 56,
+    "symbol": "BNB",
+    "explorer": "https://bscscan.com"
+  }
+}
