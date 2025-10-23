@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 setup(
     name='potential-winner',
     version='0.1.0',
-    description='A Python package',
+    description='A Python package for computing potential winners in voting systems under various voting rules.',
     author='Charlene',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
