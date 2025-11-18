@@ -115,9 +115,13 @@ def get_potential_winners(votes: List[str], method: str = "plurality") -> str:
     """
     Determine the potential winner based on the specified voting method.
     
+    This is a convenience function for simple voting scenarios. For Borda count voting,
+    use the borda_count_winner() function directly with ranked preference lists.
+    
     Args:
-        votes: List of votes. For plurality, each vote is a candidate name.
+        votes: List of votes where each vote is a candidate name (for plurality method).
         method: Voting method to use. Currently only "plurality" is supported.
+                For other methods like Borda count, use the specific functions directly.
         
     Returns:
         The potential winner according to the specified method.
